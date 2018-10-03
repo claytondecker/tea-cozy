@@ -1,4 +1,4 @@
-@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+/*@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");*/
 * {
   box-sizing: border-box;
 }
@@ -9,6 +9,8 @@ body {
   background-color: black;
   text-align: center;
 }
+
+/* Header and Navigation */
 header {
   position: fixed;
   top: 0;
@@ -37,6 +39,19 @@ header nav a {
   text-decoration: underline;
 }
 
+/* Mission Jumbotron */
 #mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 69px;
+  height: 700px;
+  background-image: url("../img/mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+#mission .headline {
+  background-color: black;
+  width: 100%;
 }
