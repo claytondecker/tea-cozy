@@ -106,3 +106,16 @@ header nav a {
 #locations .flex-item p {
   line-height: 2.2;
 }
+
+/* Footer */
+footer .contact {
+  height: 200px;
+}
+footer .contact h5 a {
+  color: seashell;
+  text-decoration: none;
+}
+footer h5.copyright {
+  padding-left: 20px;
+  text-align: left;
+}
