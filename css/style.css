@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 
-/* Header and Navigation */
+/* Header and Nav */
 header {
   position: fixed;
   top: 0;
@@ -49,7 +49,6 @@ header nav a {
   background-image: url("../img/mission-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
-
 }
 #mission .headline {
   background-color: black;
@@ -58,8 +57,9 @@ header nav a {
 
 /* Featured */
 #featured {
+  padding-top: 75px;
   width: 1000px;
-  margin: 80px auto 0px auto;
+  margin: 0 auto;
 }
 #featured .flex-container {
   display: flex;
@@ -78,3 +78,31 @@ header nav a {
 }
 
 /* Locations */
+#locations {
+  width: calc(100% - 50px);
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("../img/locations-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#locations h2 {
+  margin: 0 0 15px 0;
+}
+#locations .flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#locations .flex-item {
+  width: 300px;
+  height: 270px;
+  padding: 10px;
+  margin: 0 20px 20px 20px;
+  background-color: black;
+  opacity: 1;
+}
+#locations .flex-item p {
+  line-height: 2.2;
+}
